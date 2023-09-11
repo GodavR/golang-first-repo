@@ -20,8 +20,25 @@ import "<nama-package>"
 import "fmt" */
 
 func main() {
-	/*komentar code
-	menamppilkan pesan hello word */
-	fmt.Println("Hello, World!")
+	/*deklaraasi variabel dengan tipe data */
+	var firstCode string = "Hello"
+	//var lastCode string = "Word..."
+	//atau dapat digantikan dengan := tampa menggunakan var
+	lastCode := "Word..."
+	/*atau dapat juga dengan penulisan
+		lastName := "wick"
+		lastName = "etnan"
+		lastName = "test"
+
+		dapat juga deklarasi multi variabel
+		var first,second,third string
+		first,second,third = "satu","dua","tiga"
+		Pengisian nilai juga bisa dilakukan bersamaan pada saat deklarasi. Caranya
+	dengan menuliskan nilai masing-masing variabel berurutan sesuai variabelnya
+	dengan pembatas koma ( , ).
+		/*komentar code
+		menamppilkan pesan hello word */
+	fmt.Printf("halo %s %s!\n", firstCode, lastCode)
+	//fmt.Println("Hello, World!")
 	//fmt.Println("Hello, World!") baris ini tidak akan dieksekusi
 }
