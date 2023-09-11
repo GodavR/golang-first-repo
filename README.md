@@ -3,7 +3,10 @@
 This is my first GitHub repository. It's a simple project where I'm learning the basics of version control with Git and GitHub.
 
 ## Installation
-
+-buat folder utama dimana aplikasi akan dituh,
+-tambahkan folder bin,docs dan pkg
+-code .go ditulis pada folder src 
+tambahkan go mod init <nama project>
 Clone this repository to your local machine:
 
  <code> git clone https://github.com/GodavR/golang-first-repo.git </code>
